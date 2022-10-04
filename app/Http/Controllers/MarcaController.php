@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\MarcaController;
+use App\Models\Marca;
 use Illuminate\Http\Request;
 
-class MarcaControllerController extends Controller
+class MarcaController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -41,10 +41,10 @@ class MarcaControllerController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\MarcaController  $marcaController
+     * @param  \App\Models\Marca  $marca
      * @return \Illuminate\Http\Response
      */
-    public function show(MarcaController $marcaController)
+    public function show(Marca $marca)
     {
         //
     }
@@ -52,10 +52,10 @@ class MarcaControllerController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\MarcaController  $marcaController
+     * @param  \App\Models\Marca  $marca
      * @return \Illuminate\Http\Response
      */
-    public function edit(MarcaController $marcaController)
+    public function edit(Marca $marca)
     {
         //
     }
@@ -64,10 +64,10 @@ class MarcaControllerController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\MarcaController  $marcaController
+     * @param  \App\Models\Marca  $marca
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, MarcaController $marcaController)
+    public function update(Request $request, Marca $marca)
     {
         //
     }
@@ -75,10 +75,10 @@ class MarcaControllerController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\MarcaController  $marcaController
+     * @param  \App\Models\Marca  $marca
      * @return \Illuminate\Http\Response
      */
-    public function destroy(MarcaController $marcaController)
+    public function destroy(Marca $marca)
     {
         //
     }
